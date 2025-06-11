@@ -278,6 +278,7 @@ function Button({
               src="/assets/images/icon-add-to-cart.svg"
               alt="cart icon"
               className="inline-block align-middle "
+              draggable="false"
             />
             <span className="align-middle pl-2">Add to Cart</span>
           </button>
@@ -320,6 +321,7 @@ function ProductsCart({
             className=" mx-auto"
             src="/assets/images/illustration-empty-cart.svg"
             alt="empty cart icon"
+            draggable="false"
           />
 
           <p className="text-amber-900 text-center">
@@ -345,6 +347,7 @@ function ProductsCart({
             <img
               src="/assets/images/icon-carbon-neutral.svg"
               alt="carbon neutral icon"
+              draggable="false"
             />
             <p className="text-amber-950 ">
               This is a <span className="font-medium">carbon neutral</span>{" "}
@@ -384,6 +387,7 @@ function OrderConfirmedMessage({
               src="/assets/images/icon-order-confirmed.svg"
               alt="order confirmed logo"
               className="my-8 scale-[1.1]"
+              draggable="false"
             />
             <h2 className="text-4xl font-semibold my-2 text-amber-950 ">
               Order Confirmed
@@ -421,6 +425,7 @@ function OrderList({ item }) {
           src={item.image.thumbnail}
           alt={item.name}
           className=" rounded-md scale-[0.6]"
+          draggable="false"
         />
         <div className="font-medium text-amber-950">
           <p>{item.name}</p>
@@ -452,7 +457,8 @@ function CartItem({ item, handleDiscardItem }) {
       <img
         className="border-1 border-gray-500 h-fit rounded-full p-1 my-auto hover:border-2 hover:border-black hover:filter hover:brightness-0 cursor-pointer"
         src="/assets/images/icon-remove-item.svg"
-        alt=""
+        alt="remove icon"
+        draggable="false"
         onClick={() => handleDiscardItem(item)}
       />
     </div>
