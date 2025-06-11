@@ -275,7 +275,7 @@ function Button({
           >
             {" "}
             <img
-              src="public/assets/images/icon-add-to-cart.svg"
+              src="/assets/images/icon-add-to-cart.svg"
               alt="cart icon"
               className="inline-block align-middle "
             />
@@ -381,7 +381,7 @@ function OrderConfirmedMessage({
         <div className="fixed inset-0 bg-black/45  flex items-center justify-center z-50">
           <div className="bg-white py-2 px-10 rounded-2xl shadow-lg max-w-xl w-full overflow-y-auto max-h-[80vh]">
             <img
-              src="public/assets/images/icon-order-confirmed.svg"
+              src="/assets/images/icon-order-confirmed.svg"
               alt="order confirmed logo"
               className="my-8 scale-[1.1]"
             />
@@ -451,7 +451,7 @@ function CartItem({ item, handleDiscardItem }) {
       </div>
       <img
         className="border-1 border-gray-500 h-fit rounded-full p-1 my-auto hover:border-2 hover:border-black hover:filter hover:brightness-0 cursor-pointer"
-        src="public/assets/images/icon-remove-item.svg"
+        src="/assets/images/icon-remove-item.svg"
         alt=""
         onClick={() => handleDiscardItem(item)}
       />
