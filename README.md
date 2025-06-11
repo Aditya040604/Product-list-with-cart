@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 * **Solution URL:** [GitHub Repo](https://github.com/Aditya040604/Product-list-with-cart)
-* **Live Site URL:** [Live Preview](https://your-deployment-url.vercel.app)
+* **Live Site URL:** [Live Preview](https://product-list-with-cart-pink-two.vercel.app/)
 
 ---
 
@@ -87,7 +87,7 @@ Users should be able to:
 ## Author
 
 * Name – Aditya Gurram
-* Frontend Mentor – [@yourusername](https://www.frontendmentor.io/profile/Aditya040604)
-* GitHub – [@yourusername](https://github.com/Aditya040604)
+* Frontend Mentor – [@Aditya040604](https://www.frontendmentor.io/profile/Aditya040604)
+* GitHub – [@Aditya040604](https://github.com/Aditya040604)
 
 ---
